@@ -102,3 +102,9 @@ set number
 "better line breaks
 set linebreak
 set nolist
+
+call pathogen#infect() "pathogen
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+filetype plugin indent on
+set tabstop=4
