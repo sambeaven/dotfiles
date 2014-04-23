@@ -83,7 +83,7 @@ if has("autocmd")
   augroup END
 
 else
-
+  set smartindent
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
@@ -107,4 +107,4 @@ call pathogen#infect() "pathogen
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
 filetype plugin indent on
-set tabstop=4
+set tabstop=2
